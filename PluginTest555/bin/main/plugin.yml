@@ -1,0 +1,16 @@
+name: PluginTest555
+main: PluginTest555.Main
+version: 1.1.0
+api-version: 1.18.1
+commands:
+    Ping:
+        aliases: [p]
+        description: This command will ping the server and recieve a PONG response
+        permision: PluginTest555
+        usage: /Ping
+
+    CoolTeleport:
+        aliases: [p]
+        description: This command will teleport you
+        permission: PluginTest555
+        usage : /coolteleport.

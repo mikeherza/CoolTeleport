@@ -1,0 +1,20 @@
+name: PluginTest555
+main: PluginTest555.Main
+version: 1.1.0
+api-version: 1.17
+commands:
+    Ping:
+        aliases: [p]
+        description: This command will ping the server and recieve a PONG response
+        usage: /Ping
+
+    CoolTeleport:
+        aliases: [cooltp]
+        description: This command will teleport you. To use do cooltp/coolteleport x y z.
+        usage: /coolteleport
+
+    givePermission:
+        aliases: [givePerm]
+        description: To use - /giveperm PlayerName RankName
+        usage: /givepermission
+
